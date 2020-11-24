@@ -60,4 +60,6 @@ const parametrosEnvioSimulador = {
 
 })(document);
 
-simuladorViewModel.Regras.PrimeiraCargaDadosModal()      
+window.onload = function() {
+  simuladorViewModel.Regras.PrimeiraCargaDadosModal() 
+};
